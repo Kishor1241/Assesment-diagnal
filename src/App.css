@@ -1,0 +1,23 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #171717;
+  color: #FFFFFF;
+}
+
+.container {
+  padding: 16px;
+  max-width: 480px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.thumbnail {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
